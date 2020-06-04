@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Stone-Paper-Scissors Game</title>
+   <link rel="stylesheet" type="text/css" href="sps.css"> 
+ </head>
+ <body>
+    <script type="text/javascript">
+    var name= window.prompt("Welcome to my ROCK-PAPER-SCISSORS GAME\nPlease enter your name");
+	while(name==""){
+    name= window.prompt("Invalid Entry\nPlease enter your name");
+	}
+	document.write("<h1 id='message'> Welcome " + name + " To My ROCK-PAPER-SCISSORS Game!!!</h1>");
+    </script>
+<div class = "vertical"></div>
+<hr style ="border-bottom-width :10px ;">
+<div id = "firstplayer">
+ <span class= "pname"> Player 1: 
+<script>document.write(name)</script></span>
+<br>
+<button id="brock"><img src = "rock.jpeg"><br><b>Click to choose rock<b></button>
+<button id="bpaper"><img src = "paper.jpeg"><br><b>Click to choose paper<b></button>
+<button id = "bscissors"><img src = "scissors.jpeg"><br><b>Click to choose scissors<b></button>
+<table id = "utable" border= "1" style="border-collapse:collapse " cellpadding = "13" cellspacing = "1">
+<tr>
+<th>Round No.</th>
+<th>Score</th>
+</tr>
+</table>
+</div>
+<div id = "secondplayer">
+<span class="pname">Player 2 : Computer</span>
+<p>Hello <script>document.write(name )</script>  !!!<br>These are the rules of playing Rock-Paper-Scissors<br>
+<ul>
+<li>Rock beats Scissors.</li>
+<li>Scissors beats Paper.</li>
+<li>Paper beats Rock.</li>
+</ul>
+There will be 5 rounds. The player who scores maximum wins !!<br><br>
+</p>
+<table id="ctable" border= "1" style="border-collapse:collapse " cellpadding = "13" cellspacing = "1">
+<tr>
+<th>Round No.</th>
+<th>Score</th>
+</tr>
+</table>
+</div>
+<script type = "text/javascript" src= "sps.js"></script>
+ </body>
+</html>
