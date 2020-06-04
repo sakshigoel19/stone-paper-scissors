@@ -1,0 +1,50 @@
+ .vertical {
+   border-left : 10px solid white;
+   height : 80%;
+   position : absolute;
+   left : 50%;
+   }
+  #message{
+	text-align : center;
+	color : white;
+	
+  }
+  #firstplayer{
+	  	width : 50%;
+		float : left;
+		
+  }
+  #secondplayer{
+	  width : 48%;
+	  float : right;
+	  
+  }
+  #reset{
+	  text-align : center;
+	  
+  }
+  body {
+	   background-color : #232323; 
+	   color : white;
+       font-family : "Century Gothic";	   
+  }
+  .pname {
+	  font-size : 30px;
+	  margin-left : 25%;
+	  border-bottom : 5px solid white;
+  }
+  button {
+    width:25%;
+	background-color :#666666;
+	float:left;
+	margin:4.16%;
+  }
+  table{
+	  margin-left: 25%;
+	  border : 2px solid white;
+	  text-align:center;
+	  
+  }
+  p{
+	  font-size : 18px;
+  }
